@@ -1,0 +1,35 @@
+.newListInputContainer{
+
+    height: 3rem;
+    margin-right: 2.5rem;
+
+    display: flex;
+    align-items: center;
+
+    border-bottom: 0.5px solid #dedede;
+
+}
+
+.newListInputContainer input {
+
+    height: 95%;
+    width: 80%;
+
+    color: #7c7c7c;
+
+    border: 0px solid #dedede;
+
+}
+
+.newListInputContainer p{
+
+    margin-left: 1rem;
+
+}
+
+.newListInputContainer p:hover {
+
+    cursor: pointer;
+    color: blue;
+
+}

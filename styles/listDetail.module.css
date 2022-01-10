@@ -1,0 +1,87 @@
+.listDetailWrapper{
+
+    height: 85%;
+    width: 70%;
+
+    margin-bottom: 2rem;
+    border-radius: 10px;
+
+    overflow-y: hidden;
+
+}
+
+.shoppingDashboard{
+
+    margin: 0 auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding-left: 3rem;
+
+    width: 50%;
+    height: 80%;
+
+    box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.2);
+
+    display: flex;
+    border-radius: 10px;
+
+    /* background-color: whitesmoke; */
+    
+}
+
+.rightButton{
+
+    margin-top: 1rem;
+
+    width: 10%;
+    height: 80%;
+    
+    text-align: center;
+
+    /* background-color: #0800a3; */
+
+}
+
+.listDetailWrapper:hover{
+
+    overflow-y: scroll;
+    visibility: visible;
+
+}
+
+.listDetailWrapper ul{
+
+    list-style: none;
+
+}
+
+.listDetailWrapper ul li{
+
+    /* background-color: aqua; */
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    height: 3rem;
+
+    border-bottom: 0.2px solid #dedede;
+
+    margin-right: 2.5rem;
+    margin-bottom: 1rem;
+
+}
+
+.listDetailWrapper ul li p{
+
+    color: #dedede;
+
+}
+
+.listDetailWrapper ul li p:hover {
+
+    cursor: pointer;
+    color: blue;
+
+}
+

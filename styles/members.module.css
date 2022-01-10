@@ -1,0 +1,158 @@
+.shoppingListsContainer{
+
+    width: 100%;
+    height: 1000px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    /* background-color: #fffdfa; */
+    /* background-color: salmon; */
+
+}
+
+.shoppingDashboard{
+
+    margin: 0 auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding-left: 3rem;
+
+    width: 50%;
+    height: 80%;
+
+    box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.2);
+
+    display: flex;
+    border-radius: 10px;
+
+    /* background-color: whitesmoke; */
+    
+}
+
+.rightButton{
+
+    margin-top: 1rem;
+
+    width: 10%;
+    height: 80%;
+    
+    text-align: center;
+
+}
+
+
+
+.myLists{
+
+    width: 100%;
+    height: 100%;
+
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-bottom: 4rem;
+
+}
+
+.membersListWrapper{
+
+    height: 75%;
+    width: 70%;
+
+    margin-bottom: 2rem;
+    border-radius: 10px;
+
+    border: 0.5px solid #dedede;
+
+    overflow-y: hidden;
+    
+}
+
+.membersListWrapper:hover{
+
+    overflow-y: scroll;
+    visibility: visible;
+
+
+}
+
+.membersListWrapper h3{
+
+    padding-left: 2rem;
+
+}
+
+.membersListWrapper ul{
+
+    list-style: none;
+
+    
+    height: 85%;
+    width: 100%;
+
+    margin-bottom: 2rem;
+    border-radius: 10px;
+
+}
+
+.membersListWrapper ul li{
+
+    height: 3rem;
+
+    border-bottom: 0.2px solid #dedede;
+
+    margin-left: 0.5rem;
+    margin-right: 2.5rem;
+    margin-bottom: 1rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.membersListWrapper ul li:hover{
+
+    cursor: pointer;
+
+}
+
+.membersListWrapper ul li p{
+
+    text-align: right;
+    color: #dedede;
+    /* background-color: #0800a3; */
+
+}
+
+.membersListWrapper ul li p:hover{
+
+    cursor: pointer;
+    color: blue;
+
+}
+
+.create{
+
+    margin-bottom: 3rem;
+
+}
+
+.createButton{
+
+    transition: color 0.5s;
+
+}
+
+.createButton:hover{
+
+    cursor: pointer;
+    color: #0800a3;
+
+}
